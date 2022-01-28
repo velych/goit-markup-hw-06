@@ -598,12 +598,7 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
-.form-input:placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .form-input-join {
   display: inline-block;
   width: 358px;
@@ -996,13 +991,12 @@ ul {
   top: 8px;
   right: 8px;
   cursor: pointer;
-  transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
+  transition: fill 250ms var(--timing-function);
 }
 
 .modal-close:hover,
 .modal-close:focus {
   fill: var(--header-logo);
-  border-color: var(--header-logo);
 }
 .is-hidden {
   opacity: 0;
