@@ -580,8 +580,9 @@ ul {
 
 /*--------------JOIN--------------*/
 .join {
-  margin-left: 93px;
+  margin-left: auto;
 }
+
 .join-title {
   display: block;
   font-style: normal;
@@ -611,6 +612,7 @@ ul {
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border-radius: 4px;
 }
+
 .telegram-join {
   display: flex;
   width: 200px;
