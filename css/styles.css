@@ -706,6 +706,7 @@ ul {
   background: #ffffff;
   width: calc(100% / 3 - 30px);
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .li-portfolio-item:hover,
